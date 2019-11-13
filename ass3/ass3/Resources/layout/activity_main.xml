@@ -45,12 +45,17 @@
             android:layout_height="wrap_content"
             android:text="Sign In"
             android:id="@+id/btnlgn"
-            android:onClick="btnlgnClick"/>
-            
+            android:onClick="btnlgnClick"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sign Up"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
             android:id="@+id/reg"
             android:onClick="btnregClick"/>
     </LinearLayout>
