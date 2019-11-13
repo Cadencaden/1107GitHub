@@ -15,6 +15,7 @@ namespace Ass3_New
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+            
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -22,5 +23,23 @@ namespace Ass3_New
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+        private void btnlogin_clicked(object sender, System.EventArgs e)
+        {
+
+            var username = FindViewById<EditText>(Resource.Id.txtuser);
+            var password = FindViewById<EditText>(Resource.Id.txtpass);
+           
+
+            if (username.Text == "steven")
+            {
+                Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(this);
+                Android.App.AlertDialog alert = dialog.Create();
+                alert.SetTitle("My Alert");
+                alert.SetMessage("Click Me");
+                alert.SetButton("OK", (c, ev) => { });
+                alert.Show();
+            }
+        }
     }
+    
 }
