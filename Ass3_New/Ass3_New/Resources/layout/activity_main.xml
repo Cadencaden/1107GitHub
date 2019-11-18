@@ -29,7 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:onClick="btnlogin_clicked"
-            android:text="Login"/>
+            android:text="Login"
+            android:clickable="true" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,10 +42,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:onClick="btnregi_clicked"
-            android:text="Register"/>
+            android:text="Register"
+            android:clickable="true" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView1"/>
+
         </LinearLayout>
 </RelativeLayout>
