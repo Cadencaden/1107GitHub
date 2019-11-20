@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final_New_Ass3", "Final_New_Ass3\Final_New_Ass3.csproj", "{8D4E970E-7564-485F-8324-5D5A0534FB49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest-a-go", "Rest-a-go\Rest-a-go.csproj", "{DEB8B617-7D7C-406A-BEAE-2EDA77A706B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{8D4E970E-7564-485F-8324-5D5A0534FB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D4E970E-7564-485F-8324-5D5A0534FB49}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D4E970E-7564-485F-8324-5D5A0534FB49}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DEB8B617-7D7C-406A-BEAE-2EDA77A706B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB8B617-7D7C-406A-BEAE-2EDA77A706B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB8B617-7D7C-406A-BEAE-2EDA77A706B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB8B617-7D7C-406A-BEAE-2EDA77A706B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
